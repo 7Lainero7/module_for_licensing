@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env
+
+# Django specific
+*.sqlite3
+/static/
+/media/
+
+# IDE specific (VS Code, PyCharm, etc.)
+.idea/
+.vscode/
+
+# Project-specific generated files and caches
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+.coverage
+.ruff_cache/
